@@ -19,6 +19,31 @@ Dans la vue Project Explorer à gauche, déplier le dossier du projet 'LesBases'
 
 Pour commencez, ouvrez le fichier 'src/fr/package-info.java'.
 
+## Les types primitifs en Java
+
+### short, int et long
+Représente des nombres entiers positifs ou négatifs, utilisant respectivement 2, 4 et 8 octets en mémoire.
+
+### float et double
+Représente des nombres réels (avec virgule) positifs ou négatifs, utilisant respectivement 4 et 8 octets en mémoire.
+
+### byte
+Un byte ne correspond pas à un type d'information en particulier, ce type est souvent utilise comme un tableau de 8 bits.
+
+### char
+Représente un caractère, on utilise l'apostrophe plutôt que les guillemets pour déclarer un char (Ex: char c = 'a').
+
+### boolean
+Représente une valeur "vraie" ou "fausse", on utilise pour cela les mots-clefs Java 'true' et 'false'. Les booléens sont fréquemment utilisés dans les blocs conditionnels.
+
+## Les blocs de code Java
+
+### if...else if...else
+### for
+### while
+### do...while
+### switch...case
+
 ## Vocabulaire
 
 ### Programmer et Développer
@@ -31,7 +56,7 @@ On parle de PC, d'ordinateur personnel, pour désigner les ordinateurs accessibl
 En français on parle de système d'exploitation, c'est le socle informatique qui fait le lien entre vous et les composants matériels de votre machine.
 
 ### JVM : Java Virtual Machine
-La machine virtuelle de Java est un programme qui permet de simuler virtuellement une machine, un PC, à l'intérieur de votre PC. Cela permet à votre code Java d'être éxécuté à l'intérieur de la machine virtuelle, donc de manière détachée de votre PC. La JVM éxécute votre code Java, et lorsque votre code le nécessite, elle demande des informations ou des ressources au système (l'OS installé sur votre machine). L'installation d'une JVM est donc dépendante du système
+La machine virtuelle de Java est un programme qui permet de simuler virtuellement une machine, un PC, à l'intérieur de votre PC. Cela permet à votre code Java d'être éxécuté à l'intérieur de la machine virtuelle, donc de manière détachée de votre PC. La JVM éxécute votre code Java, et lorsque votre code le nécessite, elle demande des informations ou des ressources au système (l'OS installé sur votre machine). L'installation d'une JVM est donc dépendante de l'OS de la machine ciblée.
 
 ### JRE : Java Runtime Environment
 Distribution de Java contenant tout le nécessaire pour éxécuter des programmes Java.
