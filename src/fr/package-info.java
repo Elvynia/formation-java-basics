@@ -57,10 +57,20 @@
  * <p>
  * Dans chaque fichier .java, la <b>première</b> instruction qui apparaît doit
  * <u>toujours</u> être celle du package. Chaque fichier Java doit donc déclarer
- * une instruction 'package xxx' avec une valeur correspondant au dossier dans
+ * une instruction 'package xxx;' avec une valeur correspondant au dossier dans
  * lequel il se trouve. Contrairement aux chemins de dossiers/fichiers, pour
  * séparer les package 'parent/enfant' on utilise la syntaxe 'parent.enfant'. Le
- * chemin 'fr/formation' donne l'instruction 'package fr.formation;'.
+ * chemin du dossier 'fr/formation' donne l'instruction 'package fr.formation;'.
+ * </p>
+ * <p>
+ * Les noms de packages représentent très fréquemment des noms de domaines
+ * Internet. Par exemple, le package racine est souvent 'com' (pour commercial),
+ * 'org' (pour organisationnel), 'fr' (pour france, ou n'importe quelle
+ * identifiant de pays), et c'est la même chose pour les noms de domaines. En
+ * effet, les noms de domaines sont aussi hierarchiques, et pour un nom de
+ * domaine 'mail.google.com', on a le domaine 'mail' qui se trouve à l'intérieur
+ * du domaine 'google', et ce dernier se trouve à l'intérieur du domaine 'com'.
+ * C'est donc 'com' qui est le domaine racine du site.
  * </p>
  * 
  * <ul>
