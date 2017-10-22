@@ -1,4 +1,4 @@
-package fr.formation.variables;
+package fr.formation.types.primitives;
 
 /**
  * Parmis les différents types 
